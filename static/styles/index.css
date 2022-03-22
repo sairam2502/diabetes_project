@@ -1,0 +1,36 @@
+
+  body {
+  font-family: 'Lobster', cursive;
+  background-image: url(https://www.cdc.gov/diabetes/images/library/spotlights/diabetes-stats-report-724px.png?_=42420);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+  .form-input{
+      width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #F0F8FF;
+  color: #000080;
+  font-weight : bold;
+  opacity: .5;
+  }
+  input {font-weight:bold;}
+  button {
+  
+  width: 25%;
+  background-color: #008B8B	; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Amatic SC', cursive;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }

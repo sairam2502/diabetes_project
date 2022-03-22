@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Diabetes Predictor</title>
+		<style>
+		body{
+            background-color: #87CEFA;
+		}
+		marquee {
+    display: inline-block;
+    height: 200px;
+}
+		</style>
+    </head>
+    <body>
+		<!-- Result -->
+		<div class="results"><center>
+				<h1>Prediction: <span class='danger'>Opps! You have DIABETES.</span></h1><br/>
+				<img class="gif" src="{{ url_for('static', filename='diabetes.webp') }}" width=500px  height=300px alt="Diabetes Image"></center>
+		</div>
+		<br><br>
+		<h1>Firstly get tested from the lab to get accurate reasult</h1><br><br>
+		<form>
+		<h3>Get in touch to India's top Diabetic Doctors</h3>
+		<button type="submit"><a href="https://www.medifee.com/best-doctors/diabetes-specialist-in-india/">Click Here</a></button>
+		<br><h3>General Medication<h3><br>
+		<marquee direction="up"><ol>
+    		<li>Chlorpropamide</li><br>
+    		<li>Colesevelam Hcl</li><br>
+    		<li>Ertugliflozin</li><br>
+    		<li>Exenatide</li><br>
+    		<li>Glibenclamide</li><br>
+    		<li>Glibenclamide and Metformin</li><br>
+    		<li>Gliclazide</li><br>
+    		<li>Glimepiride</li><br>
+		</ol></marquee>
+		<marquee direction="left"><p>*** Thank you for visiting ***&emsp;&emsp;&emsp;    Done By: N Sairam, Dhana Lakshmi, Rakesh&emsp;&emsp;&emsp;   Guided By: Boosu Baabu Sir</p></marquee>
+	</body>
+</html>
