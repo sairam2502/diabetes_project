@@ -4,7 +4,7 @@
   background-image: url(https://cutewallpaper.org/21/diabetes-wallpaper/Insulin-Logos.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
 }
   .form-input{
       width: 65%;
