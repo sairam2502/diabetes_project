@@ -40,6 +40,6 @@
     minmax(200px, 1fr));
     gap : 20px;
 }
-img {
+.home {
   border-radius: 50%;
 }
